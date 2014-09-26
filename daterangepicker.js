@@ -597,7 +597,7 @@
             this.hide();
         },
 
-        hide: function (e) {
+        hide: function (e, source) {
             if (!this.isShowing) return;
 
             $(document)
